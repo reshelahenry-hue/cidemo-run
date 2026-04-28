@@ -1,0 +1,155 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/reshela.henry/Desktop/Learn Playwright",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/reshela.henry/Desktop/Learn Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/reshela.henry/Desktop/Learn Playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/multiselectdropdown.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\multiselectdropdown.spec.ts",
+      "file": "tests/multiselectdropdown.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "verify multiselect dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6763,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[\n  \u001b[32m'Red'\u001b[39m,   \u001b[32m'Blue'\u001b[39m,\n  \u001b[32m'Green'\u001b[39m, \u001b[32m'Yellow'\u001b[39m,\n  \u001b[32m'Red'\u001b[39m,   \u001b[32m'White'\u001b[39m,\n  \u001b[32m'Green'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Red\n"
+                    },
+                    {
+                      "text": "Blue\n"
+                    },
+                    {
+                      "text": "Green\n"
+                    },
+                    {
+                      "text": "Yellow\n"
+                    },
+                    {
+                      "text": "Red\n"
+                    },
+                    {
+                      "text": "White\n"
+                    },
+                    {
+                      "text": "Green\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-27T07:52:07.813Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\test-results\\tests-multiselectdropdown-verify-multiselect-dropdown\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\test-results\\tests-multiselectdropdown-verify-multiselect-dropdown\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3ef62118ee6f550a5c5-bbb944629e2dcb9f0b60",
+          "file": "tests/multiselectdropdown.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-27T07:52:06.512Z",
+    "duration": 8300.890000000001,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
