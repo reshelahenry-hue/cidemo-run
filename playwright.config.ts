@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/mobile.spec.ts"],
+  testMatch: ["tests/simpledialog.spec.ts"],
   fullyParallel:true,//if true means it will run in parallel execution,if true means it will run in serial execution
   workers:8,
   
