@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
   workers:8,
   
   use:{
-    headless:false,
+    headless:true,
     screenshot:"on",
     video:"on"
   },
