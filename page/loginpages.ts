@@ -24,5 +24,6 @@ export class loginpage{//export is used to use this file in another class/file
         this.loginbutton.click();
 
     }
+    
 
 }

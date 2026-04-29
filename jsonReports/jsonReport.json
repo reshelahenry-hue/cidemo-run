@@ -27,7 +27,7 @@
         "testDir": "C:/Users/reshela.henry/Desktop/Learn Playwright",
         "testIgnore": [],
         "testMatch": [
-          "tests/multiselectdropdown.spec.ts"
+          "tests/mobile.spec.ts"
         ],
         "timeout": 30000
       }
@@ -65,13 +65,13 @@
   },
   "suites": [
     {
-      "title": "tests\\multiselectdropdown.spec.ts",
-      "file": "tests/multiselectdropdown.spec.ts",
+      "title": "tests\\mobile.spec.ts",
+      "file": "tests/mobile.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "verify multiselect dropdown",
+          "title": "test login",
           "ok": true,
           "tags": [],
           "tests": [
@@ -86,48 +86,23 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6763,
+                  "duration": 11299,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "[\n  \u001b[32m'Red'\u001b[39m,   \u001b[32m'Blue'\u001b[39m,\n  \u001b[32m'Green'\u001b[39m, \u001b[32m'Yellow'\u001b[39m,\n  \u001b[32m'Red'\u001b[39m,   \u001b[32m'White'\u001b[39m,\n  \u001b[32m'Green'\u001b[39m\n]\n"
-                    },
-                    {
-                      "text": "Red\n"
-                    },
-                    {
-                      "text": "Blue\n"
-                    },
-                    {
-                      "text": "Green\n"
-                    },
-                    {
-                      "text": "Yellow\n"
-                    },
-                    {
-                      "text": "Red\n"
-                    },
-                    {
-                      "text": "White\n"
-                    },
-                    {
-                      "text": "Green\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-04-27T07:52:07.813Z",
+                  "startTime": "2026-04-29T07:11:43.615Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\test-results\\tests-multiselectdropdown-verify-multiselect-dropdown\\test-finished-1.png"
+                      "path": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\test-results\\tests-mobile-test-login\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\test-results\\tests-multiselectdropdown-verify-multiselect-dropdown\\video.webm"
+                      "path": "C:\\Users\\reshela.henry\\Desktop\\Learn Playwright\\test-results\\tests-mobile-test-login\\video.webm"
                     }
                   ]
                 }
@@ -135,9 +110,9 @@
               "status": "expected"
             }
           ],
-          "id": "f3ef62118ee6f550a5c5-bbb944629e2dcb9f0b60",
-          "file": "tests/multiselectdropdown.spec.ts",
-          "line": 3,
+          "id": "6fc23077916bc3c14135-e190cba648664870d380",
+          "file": "tests/mobile.spec.ts",
+          "line": 5,
           "column": 5
         }
       ]
@@ -145,8 +120,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-04-27T07:52:06.512Z",
-    "duration": 8300.890000000001,
+    "startTime": "2026-04-29T07:11:42.338Z",
+    "duration": 13497.55,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

@@ -1,12 +1,12 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/multiselectdropdown.spec.ts"],
+  testMatch: ["tests/mobile.spec.ts"],
   fullyParallel:true,//if true means it will run in parallel execution,if true means it will run in serial execution
   workers:8,
   
   use:{
-    headless:true,
+    headless:false,
     screenshot:"on",
     video:"on"
   },

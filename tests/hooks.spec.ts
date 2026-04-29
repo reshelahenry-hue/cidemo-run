@@ -1,4 +1,4 @@
-
+//open app
 //scenario
 //login
 //find products
